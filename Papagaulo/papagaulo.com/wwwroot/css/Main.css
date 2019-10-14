@@ -163,7 +163,7 @@ nav.navbar {
       background: url("/img/48872368241_138c536b45_q.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center; }
+      background-position: top; }
 
 .jumbotron {
   position: relative;
@@ -186,7 +186,7 @@ nav.navbar {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 20;
-    max-width: 48rem; }
+    /*max-width: 60rem;*/ }
     .jumbotron--container hr {
       background: #daa520; }
 
@@ -197,3 +197,7 @@ nav.navbar {
 .m--container {
   margin: 4rem auto;
   max-width: 60rem; }
+
+@media (max-width: 600px) {
+  .image-container .grid-item {
+    width: 100%; } }

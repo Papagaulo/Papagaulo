@@ -12,8 +12,8 @@ namespace Papagaulo
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            .UseKestrel()
-            .UseUrls("http://localhost:4000;")
+            //.UseKestrel()
+            //.UseUrls("http://localhost:4000;")
                 .UseStartup<Startup>();
     }
 }
